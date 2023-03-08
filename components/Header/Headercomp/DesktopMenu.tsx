@@ -121,7 +121,12 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           </span>
         </ReactScrollLink>
       </motion.span>
-      <a href={"/Bhumik_resume.pdf"} target={"_blank"} rel="noreferrer">
+      <a
+        href={"/Bhumik_resume.pdf"}
+        download
+        target={"_blank"}
+        rel="noreferrer"
+      >
         <motion.button
           initial={{
             y: -40,
