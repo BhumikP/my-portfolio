@@ -49,9 +49,9 @@ export default function AboutMe(props) {
                 I am working as a front-end developer with technologies like
                 ReactJs and NextJS.Mostly in javascript. I am having a bit of
                 knowledge about Backend technologies like NodeJS, NestJS, and
-                Serverless also. I&apos;m also a long-time lover of YouTube who
-                has watched several video tutorials of technologies and have
-                some fun video ideas in mind 😁👌
+                Serverless also. I am also a long-time lover of YouTube who has
+                watched several video tutorials of technologies and have some
+                fun video ideas in mind 😁👌
               </span>
             </div>
 
