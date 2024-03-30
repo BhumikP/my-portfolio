@@ -9,7 +9,7 @@ export default function AboutMe(props) {
   return (
     <div
       id="aboutSection"
-      data-aos="fade-up"
+      // data-aos="fade-up"
       className="snap-start flex flex-col  items-center py-20 bg-AAprimary"
     >
       {/* // ? 0.1 About Me */}
@@ -120,7 +120,7 @@ export default function AboutMe(props) {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
-                src={"/img/titof.jpg"}
+                src={"/img/me.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />

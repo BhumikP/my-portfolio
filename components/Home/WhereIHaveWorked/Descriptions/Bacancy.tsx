@@ -5,16 +5,20 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Bacancy() {
   const tasks = [
     {
-      text: "Designed and implemented web applications along with the modern library React js and Node js.",
+      text: "Developing and maintaining efficient and scalable web applications using Reactjs and Nextjs for our organization",
       keywords: ["Reactjs"],
     },
     {
-      text: "Responsible for the logical part of frontend like API integration, Implementation of new features, and Bug fixes using React Js, JavaScript, and CSS5.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
+      text: "Developed Financial, E-Commerce, and Insurance applications",
+      keywords: [""],
     },
     {
-      text: "Designing and implementing scalable web services, applications, and APIs.",
+      text: "Testing and debugging code to ensure high-quality deliverables Participating in agile development processes and utilizing industry- standard tools such as Git, JIRA, and Confluence for project management and collaboration",
       keywords: [],
+    },
+    {
+      text: "Stayed up-to-date with latest React JS developments and shared knowledge with the team.",
+      keywords: [""],
     },
   ];
 
@@ -29,7 +33,7 @@ export default function Bacancy() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            July 2021 - Present
+            July 2021 - Dec 2023
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

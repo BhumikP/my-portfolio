@@ -12,6 +12,10 @@ export default function TraineeEngineer() {
       text: "Learning Reactjs through Udemy course and building Demo projects Under surveillance of Seniors",
       keywords: ["Reactjs"],
     },
+    {
+      text: "Responsible for the logical part of frontend like API integration, Implementation of new features, and Bug fixes using React Js, JavaScript, and CSS5.",
+      keywords: ["Next.js/React", "AWS", "Vercel"],
+    },
   ];
 
   return (

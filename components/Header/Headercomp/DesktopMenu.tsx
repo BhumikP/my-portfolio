@@ -122,7 +122,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         </ReactScrollLink>
       </motion.span>
       <a
-        href={"/Bhumik_resume.pdf"}
+        href={"/Bhumik_Resume.pdf"}
         download
         target={"_blank"}
         rel="noreferrer"

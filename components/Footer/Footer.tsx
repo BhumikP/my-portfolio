@@ -24,7 +24,7 @@ const IconsData = [
   // { href: "https://www.youtube.com/@abdellatif_anaflous", Icon: YoutubeIcon },
 ];
 
-export default function Fotter(props: {
+export default function Footer(props: {
   githubUrl: string;
   hideSocialsInDesktop: boolean;
 }) {

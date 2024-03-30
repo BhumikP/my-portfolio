@@ -11,7 +11,7 @@ const addClass = (ref: any, myclass: string) => {
 };
 const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
   const RefNavBar = useRef<HTMLDivElement>(null);
-  const [ShowElement, setShowElement] = useState(false);
+  const [ShowElement, setShowElement] = useState(true);
   const [rotate, setRotate] = useState<boolean>(false);
   const context = useContext(AppContext);
   const scrollSizeY=useRef<number>(0);
@@ -36,7 +36,6 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
             scrollSizeY.current = window.scrollY;
           }
         }
-        console.log("Scrolling checking for NavBar ", scrollSizeY.current);
       }
     }
   }, [context.sharedState.portfolio.NavBar, context.sharedState.portfolio.NavBar.IntervalEvent]);
@@ -55,11 +54,11 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
 
   
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShowElement(true);
-    }, 10400);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowElement(true);
+  //   }, 1200);
+  // }, []);
 
   console.log("rotate from header : ", rotate);
   //veify document for serverSide rendering
